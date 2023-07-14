@@ -83,6 +83,96 @@ body.lock {
   background-color: #FD6A02;
 }
 
+.hystmodal__window {
+  width: 20rem;
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
+
+.hystmodal__close {
+  display: none;
+}
+
+.modal {
+  font-family: Comfortaa, sans-serif;
+}
+
+.modal__header {
+  text-align: center;
+  padding: 1.2rem;
+  background-color: #7EB0F2;
+}
+
+.modal__title {
+  color: #FCDC53;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.modal__body {
+  display: flex;
+  flex-direction: column;
+  padding: 1.8rem 0.6rem;
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.8rem;
+}
+
+.modal__form > *:not(:last-child) {
+  margin-bottom: 1.8rem;
+}
+
+.modal__input {
+  width: 100%;
+  padding: 1rem 2rem;
+  border-radius: 1.25rem;
+  background: #FFF;
+  box-shadow: 4px 4px 28px 0 rgba(0, 0, 0, 0.25);
+  color: #000;
+}
+
+.modal__input::-moz-placeholder {
+  color: #AAA;
+}
+
+.modal__input::placeholder {
+  color: #AAA;
+}
+
+.modal__input--textarea {
+  resize: vertical;
+  min-height: 9rem;
+}
+
+.modal__form-text {
+  font-size: 0.87rem;
+  font-weight: 400;
+}
+
+.modal__form-text a {
+  color: #FD6A02;
+  text-decoration: underline;
+}
+
+.modal__btn {
+  background-color: #FD6A02;
+  color: #fff;
+}
+
+.modal__btn:hover {
+  background-color: transparent;
+  color: #FD6A02;
+}
+
+.modal__text {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #666;
+}
+
 .header {
   background-color: #7EB0F2;
   padding: 0.4rem;
