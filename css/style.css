@@ -729,6 +729,12 @@ body.lock {
   }
 }
 
+@media (max-width: 991.98px) and (max-width: 767.98px) {
+  .about__value {
+    text-align: left;
+  }
+}
+
 @media (max-width: 767.98px) {
   .btn {
     padding: 0.4rem 1rem;
@@ -870,7 +876,7 @@ body.lock {
   }
 
   .section-title {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 
   .intro__title {
@@ -897,7 +903,7 @@ body.lock {
   }
 
   .services__col {
-    width: auto;
+    width: 100%;
   }
 
   .works__left {
