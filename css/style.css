@@ -342,6 +342,7 @@ body.lock {
 
 .about__item:last-child {
   margin-right: 0;
+  margin-bottom: 0;
 }
 
 .about__value {
@@ -349,6 +350,7 @@ body.lock {
   position: relative;
   margin-bottom: 1.5rem;
   font-size: 2.25rem;
+  padding-bottom: 0.5rem;
   border-bottom: 3px solid #FD6A02;
 }
 
@@ -534,10 +536,6 @@ body.lock {
   color: #FCDC53;
 }
 
-.footer__logo {
-  margin-bottom: 0.6rem;
-}
-
 .footer__contacts {
   height: 100%;
   display: flex;
@@ -551,8 +549,17 @@ body.lock {
   display: block;
 }
 
+.footer__social {
+  display: flex;
+  align-items: center;
+}
+
 .footer__social-item {
   cursor: pointer;
+}
+
+.footer__inner-mobile {
+  display: none;
 }
 
 @media (max-width: 1300px) {
@@ -596,6 +603,10 @@ body.lock {
   .services__col {
     padding: 1rem;
   }
+
+  .about__value {
+    font-size: 1.8rem;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -609,6 +620,10 @@ body.lock {
 
   .contacts-header__item-mobile {
     display: block;
+  }
+
+  .section-title {
+    font-size: 2.25rem;
   }
 
   .intro {
@@ -675,6 +690,43 @@ body.lock {
     margin-bottom: 0;
     margin-right: 1rem;
   }
+
+  .about__inner {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .about__item {
+    margin-right: 2rem;
+    margin-bottom: 1.5rem;
+    width: 40%;
+  }
+
+  .about__value {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .about__text {
+    font-size: 1.25rem;
+  }
+
+  .reviews__left {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .reviews__right {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .item-reviews {
+    margin: 0 auto 4.5rem;
+    flex-direction: column-reverse;
+    width: 65%;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -723,6 +775,85 @@ body.lock {
   .slider-works .swiper-button-next:after {
     font-size: 1.5rem;
   }
+
+  .about__item {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .item-reviews__header {
+    margin-bottom: 1rem;
+  }
+
+  .item-reviews__img {
+    margin-right: 1rem;
+  }
+
+  .item-reviews__title {
+    font-size: 1.125rem;
+  }
+
+  .item-reviews__service-name {
+    font-size: 0.93rem;
+  }
+
+  .item-reviews__service-info {
+    font-size: 0.83rem;
+  }
+
+  .footer__btns {
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: -6rem;
+  }
+
+  .footer__btns-modal {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    padding: 0.9em 0.5em;
+    font-size: 1.125rem;
+  }
+
+  .footer__btns-top {
+    width: 3.1rem;
+    height: 3.1rem;
+  }
+
+  .footer__btns-top svg {
+    width: 45px;
+    height: 40px;
+  }
+
+  .footer__inner {
+    display: none;
+  }
+
+  .footer__inner-mobile {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer__inner-mobile .footer__col {
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__inner-mobile .footer__col .footer__wrap {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer__inner-mobile .footer__col .footer__contacts {
+    margin-bottom: 1.5rem;
+  }
+
+  .footer__inner-mobile .footer__col .footer__link {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
 }
 
 @media (max-width: 479.98px) {
@@ -736,6 +867,10 @@ body.lock {
 
   .contacts-header__phone:nth-child(2) {
     display: none;
+  }
+
+  .section-title {
+    font-size: 1.25rem;
   }
 
   .intro__title {
@@ -775,5 +910,10 @@ body.lock {
 
   .slider-works__list {
     display: none;
+  }
+
+  .item-reviews {
+    width: 100%;
+    margin-bottom: 1.5rem;
   }
 }
