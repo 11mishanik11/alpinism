@@ -910,7 +910,7 @@ body.lock {
 
 @media (max-width: 767px) {
   .container {
-    max-width: 15px;
+    padding: 0 15px;
   }
 
   .btn {
