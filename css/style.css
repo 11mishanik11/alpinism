@@ -226,7 +226,7 @@ body.lock {
 
 .section-title {
   margin-bottom: 1.5rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 400;
   color: #000;
 }
@@ -274,7 +274,7 @@ body.lock {
   margin-bottom: 4rem;
   text-align: center;
   font-weight: 400;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .services__inner {
@@ -716,7 +716,6 @@ body.lock {
   }
 
   .services__title {
-    font-size: 2.6rem;
     margin-bottom: 3rem;
   }
 
@@ -756,7 +755,7 @@ body.lock {
   }
 
   .section-title {
-    font-size: 2.25rem;
+    font-size: 2rem;
   }
 
   .intro {
@@ -929,6 +928,10 @@ body.lock {
     display: none;
   }
 
+  .section-title {
+    font-size: 1.38rem;
+  }
+
   .intro {
     padding: 0.5rem 0 0;
     margin-bottom: 1.75rem;
@@ -956,7 +959,7 @@ body.lock {
   }
 
   .services__title {
-    font-size: 1.25rem;
+    font-size: 1.38rem;
     margin-bottom: 1rem;
     text-align: center;
   }
@@ -1099,10 +1102,6 @@ body.lock {
 @media (max-width: 480px) {
   .header__logo img {
     max-height: 42px;
-  }
-
-  .section-title {
-    font-size: 1.5rem;
   }
 
   .services__col {
